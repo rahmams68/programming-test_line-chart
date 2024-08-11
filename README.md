@@ -6,8 +6,15 @@ Terdapat tiga file kode, yaitu:
 - extract_data.py   -> Fungsi untuk mendapatkan data yang digunakan pada file utama
 - data.txt          -> Data pengujian jaringan
 
-Cara menjalankan program adalah dengan mengakses file utama dengan command berikut:
-```python
-python line_chart.py
-```
-Setelah itu, program akan dijalankan dan line chart akan tampil pada browser.
+### Cara Menjalankan Program
+1. Pastikan library Bokeh sudah terinstall. Jika belum, jalankan command berikut:
+    ```python
+    pip install bokeh
+    ```
+
+2. Akses file utama
+    ```python
+    python line_chart.py
+    ```
+
+3. Line chart akan tampil pada browser.
